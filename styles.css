@@ -8,5 +8,25 @@ html { box-sizing: border-box;}
 
 html {
     font-size: 125%;
+    font-family: "Vidaloka", serif;
 }
 
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+nav {
+    font-size: 0.9rem;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
