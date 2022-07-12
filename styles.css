@@ -75,8 +75,20 @@ header li a {
 
 .about-container {
     display: flex;
+    max-height: 60vh;
+    align-content: center;
+    justify-content: center;
+    background-color: #ff0;
 }
 
-.about-content {
+.about-image img {
+    height: 100%;
+    width: 75%;
+    object-fit: cover;
+    padding: 5vh;
+}
 
+.about-content { 
+    padding: 5vh;  
+    max-width: 60vh;
 }
