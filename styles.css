@@ -29,6 +29,8 @@ h3 {
 
 nav {
     font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 p {
@@ -36,9 +38,6 @@ p {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
     background-image: url(assets/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,12 +47,22 @@ header {
 
 header li {
     list-style: none;
-    display: inline-block;
     padding: 0 20px;
+    line-height: 20px;
+    display: inline-block;
 }
 
 header li a {
     text-decoration: none;
+    color: #EBEFF1;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40vh;
+    flex-wrap: nowrap;
     color: #EBEFF1;
 }
 
@@ -64,3 +73,10 @@ header li a {
     vertical-align: middle;
 }
 
+.about-container {
+    display: flex;
+}
+
+.about-content {
+
+}
